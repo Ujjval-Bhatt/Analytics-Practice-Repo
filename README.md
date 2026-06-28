@@ -1,100 +1,200 @@
-🏠 Bengaluru Rental Property Market Analysis
-An Interactive Power BI Dashboard for Rental Market Intelligence
+<div align="center">
 
-Staylytics transforms Bengaluru's residential rental data into actionable business insights through an interactive Power BI dashboard. Designed for tenants, landlords, real estate professionals, and business leaders, the dashboard provides a comprehensive overview of the rental market with dynamic filtering and executive-level KPIs.
+# 🏠 Bengaluru Rental Property Market Analysis
 
-📌 Project Overview
+### Interactive Power BI Dashboard for Rental Market Intelligence
 
-This end-to-end Business Intelligence project analyzes Bengaluru's residential rental market using Python, MySQL, and Power BI.
+Transforming Bengaluru's rental property data into actionable insights using **Python**, **MySQL**, **Power BI**, and **DAX**.
 
-The dashboard consolidates thousands of rental listings into a single interactive report, enabling users to explore pricing trends, property availability, furnishing preferences, and locality-wise affordability.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-Data%20Cleaning-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Analysis-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-Analytics-0078D4?style=for-the-badge)
 
-Instead of navigating multiple report pages, users can filter the data dynamically to gain instant insights into different segments of the rental market.
+</div>
 
-🎯 Business Problem
+---
 
-Bengaluru's rental market is diverse and highly competitive, with significant variations in pricing based on locality, property type, furnishing level, and seller category. Analyzing thousands of listings manually is both time-consuming and inefficient.
+# 📌 Project Overview
 
-This dashboard addresses that challenge by providing an interactive overview that helps answer questions such as:
+The Bengaluru rental market is highly dynamic, with rental prices varying significantly across localities, property types, furnishing levels, and seller categories.
 
-Which rental price segment has the highest property availability?
-Which localities provide the best value based on rent per square foot?
-Which property types dominate the rental market?
-What furnishing status is most common?
-How do seller types influence the rental inventory?
-How does availability change based on bedrooms, bathrooms, and rental budget?
+This project analyzes thousands of residential rental listings and transforms them into an interactive Power BI dashboard that helps users understand market trends, compare localities, and identify affordable rental options.
 
-The insights support informed decision-making for property seekers, landlords, investors, and real estate businesses.
+The dashboard is designed for:
 
-📊 Dashboard Features
-Executive KPIs
-🏘️ Total Properties Available
-💰 Average Monthly Rent
-📐 Average Rent per Square Foot
-Interactive Filters
-Seller Type (Agent, Builder, Owner)
-Monthly Rent
-Bedrooms
-Bathrooms
-Furnishing Status
-Visual Insights
-Properties by Price Range
-Best Value Localities
-Properties Available by Property Type
-Furnishing Status Distribution
+- 🏠 Prospective Tenants
+- 🏢 Real Estate Professionals
+- 📈 Business Leaders
+- 💼 Property Owners & Investors
 
-All visuals are interconnected and update instantly based on the selected filters, allowing users to explore specific market segments without navigating away from the overview page.
+---
 
-🛠 Tools & Technologies
-Tool	Purpose
-Python (Pandas)	Data Cleaning & Preprocessing
-MySQL	Data Exploration & Business Analysis
-Power BI	Dashboard Development & Visualization
-DAX	KPI Measures & Calculations
-Power Query	Data Transformation
-📂 Dataset Overview
+# 📊 Dashboard Preview
 
-The dataset contains residential rental listings from Bengaluru with details about pricing, property characteristics, and seller information.
+> ### Executive Overview Dashboard
 
-Column	Description
-Seller Type	Agent, Builder, or Owner
-Property Type	Apartment, Villa, Independent House, Studio Apartment, etc.
-Bedrooms	Number of Bedrooms
-Bathrooms	Number of Bathrooms
-Furnishing	Furnished, Semi-Furnished, Unfurnished
-Locality	Property Location
-Rent	Monthly Rental Price (₹)
-Area	Property Size (Sq Ft)
-Rent per Sq Ft	Rental Cost per Square Foot
-❓Business Questions Answered
-What is the average monthly rent across Bengaluru?
-Which rental price segment has the highest inventory?
-Which localities offer the best rental value?
-Which property types dominate the rental market?
-How is the rental inventory distributed by furnishing status?
-How do rental trends vary across seller types?
-How do bedrooms, bathrooms, and budget influence property availability?
-📈 Key Insights
-🟢 Best Rental Segment
+<p align="center">
 
-The ₹10K–₹20K price range contains the highest number of rental listings, making it the most accessible and competitive segment in Bengaluru.
+**📷 Replace this section with your dashboard screenshot**
 
-🏢 Dominant Property Type
+</p>
 
-Apartments account for the majority of available rental properties, making them the most common housing option in the city.
+---
 
-🛋 Preferred Furnishing
+# ✨ Dashboard Features
 
-Semi-furnished homes dominate the market, reflecting strong demand for move-in-ready properties with essential amenities.
+### 📈 Executive KPIs
 
-📍 Best Value Localities
+- Total Properties Available
+- Average Monthly Rent
+- Average Rent per Square Foot
 
-Attibele, K. C. Krishna Reddy Layout, and Hoskote offer some of the lowest average rent per square foot, making them attractive choices for budget-conscious tenants.
+### 🎛 Interactive Filters
 
-💎 Premium Locality
+- Seller Type
+- Rent Range
+- Bedrooms
+- Bathrooms
+- Furnishing Status
 
-Kithaganur Colony records the highest average rent per square foot among the highlighted localities, indicating a premium rental market.
+### 📊 Interactive Visuals
 
-🏘 Strong Market Inventory
+- Properties by Price Range
+- Best Value Localities
+- Properties by Property Type
+- Furnishing Distribution
 
-With over 13,700 rental listings, Bengaluru offers a wide range of housing options across different budgets and property types.
+---
+
+# ❓ Business Questions Answered
+
+- Which rental segment has the highest inventory?
+- Which localities provide the best rental value?
+- Which property types dominate Bengaluru's rental market?
+- How does furnishing affect rental availability?
+- Which seller category contributes the most listings?
+- How do bedrooms and bathrooms influence the market?
+
+---
+
+# 💡 Key Insights
+
+### 🟢 Best Rental Segment
+The **₹10K–₹20K** price range contains the highest number of rental listings, making it Bengaluru's most competitive rental segment.
+
+---
+
+### 📍 Best Value Localities
+Attibele, K.C. Krishna Reddy Layout, Hoskote, and Bettadasapura provide some of the lowest average rent per square foot, offering excellent value for budget-conscious tenants.
+
+---
+
+### 🏢 Dominant Property Type
+Apartments account for the majority of rental listings, highlighting their popularity across Bengaluru.
+
+---
+
+### 🛋 Preferred Furnishing
+Semi-furnished properties represent the largest share of listings, reflecting strong demand for partially equipped rental homes.
+
+---
+
+### 📦 Strong Market Inventory
+Over **13,700** active rental listings provide tenants with diverse housing choices across different budgets and property types.
+
+---
+
+# 🛠 Technology Stack
+
+| Technology | Purpose |
+|------------|----------|
+| 🐍 Python | Data Cleaning & Preprocessing |
+| 🗄 MySQL | Exploratory Data Analysis |
+| 📊 Power BI | Dashboard Development |
+| ⚡ DAX | KPI Calculations |
+| 🔄 Power Query | Data Transformation |
+
+---
+
+# 📂 Dataset
+
+The dashboard analyzes residential rental listings using the following attributes:
+
+- Seller Type
+- Property Type
+- Bedrooms
+- Bathrooms
+- Furnishing Status
+- Locality
+- Monthly Rent
+- Area (Sq Ft)
+- Rent per Sq Ft
+
+---
+
+# 📁 Repository Structure
+
+```text
+📦 Bengaluru-Rental-Property-Market-Analysis
+│
+├── 📂 data
+│   ├── raw
+│   └── cleaned
+│
+├── 📂 sql
+│   ├── data_cleaning.sql
+│   ├── exploratory_analysis.sql
+│   └── business_queries.sql
+│
+├── 📂 python
+│   └── data_preprocessing.ipynb
+│
+├── 📂 powerbi
+│   └── Bengaluru Rental Property Market Analysis.pbix
+│
+├── 📂 images
+│   └── dashboard.png
+│
+└── README.md
+```
+
+---
+
+# 🚀 Getting Started
+
+1. Clone this repository.
+2. Open the Power BI (.pbix) file.
+3. Refresh the dataset if required.
+4. Use the interactive filters to explore rental trends.
+
+---
+
+# 🔮 Future Enhancements
+
+- 🗺 Locality-wise interactive map
+- 📈 Historical rental trend analysis
+- 🤖 Rental price prediction model
+- 🏘 Rental affordability index
+- 🌐 Live real estate data integration
+
+---
+
+# 📜 License
+
+This project is created for educational and portfolio purposes.
+
+---
+
+<div align="center">
+
+## 👨‍💻 Author
+
+### **Ujjval Bhatt**
+
+**Staylytics**  
+*Turning Property Data into Actionable Insights.*
+
+⭐ If you found this project useful, consider starring the repository.
+
+</div>
