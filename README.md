@@ -133,53 +133,6 @@ The dashboard analyzes residential rental listings using the following attribute
 
 ---
 
-# 📁 Repository Structure
-
-```text
-📦 Bengaluru-Rental-Property-Market-Analysis
-│
-├── 📂 data
-│   ├── raw
-│   └── cleaned
-│
-├── 📂 sql
-│   ├── data_cleaning.sql
-│   ├── exploratory_analysis.sql
-│   └── business_queries.sql
-│
-├── 📂 python
-│   └── data_preprocessing.ipynb
-│
-├── 📂 powerbi
-│   └── Bengaluru Rental Property Market Analysis.pbix
-│
-├── 📂 images
-│   └── dashboard.png
-│
-└── README.md
-```
-
----
-
-# 🚀 Getting Started
-
-1. Clone this repository.
-2. Open the Power BI (.pbix) file.
-3. Refresh the dataset if required.
-4. Use the interactive filters to explore rental trends.
-
----
-
-# 🔮 Future Enhancements
-
-- 🗺 Locality-wise interactive map
-- 📈 Historical rental trend analysis
-- 🤖 Rental price prediction model
-- 🏘 Rental affordability index
-- 🌐 Live real estate data integration
-
----
-
 # 📜 License
 
 This project is created for educational and portfolio purposes.
